@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Naruto Theme",
+  "description": "Revitalize your backgrounds with lovely pictures of your favourite characters from the Naruto Franchise...Dattebayo! ",
+  "version": "1",
+  "author": "Chukwuemeka Victor",
+  "browser_action" : { "default_title": "Dattebayo!" },
+  "chrome_url_overrides" : {  "newtab": "index.html"},
+  "permissions": ["activeTab"]
+}
+
