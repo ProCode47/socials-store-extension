@@ -4,6 +4,9 @@ body {
   background-color: #25262a;
   font-family: 'Montserrat',sans-serif;
   color: white;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
 }
 
 header {
@@ -28,6 +31,85 @@ header img {
   height: auto;
 }
 
+.modal {
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: none;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  position: absolute;
+}
+
+.modal .main {
+  width: 40%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2d2e32;
+}
+
+.modal .main .close {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.modal .main h2 {
+  font-size: 1.5rem;
+}
+
+.modal .main input {
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  width: 60%;
+  padding: 10px;
+  height: 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.modal .main button {
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  color: white;
+  background-color: #0077B5;
+  font-size: 1rem;
+  padding: 15px;
+  width: 120px;
+  border-radius: 5px;
+}
+
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,6 +119,7 @@ header img {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-top: 1rem;
 }
 
 .socials .social {
@@ -52,6 +135,7 @@ header img {
   height: 300px;
   background-color: blueviolet;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .socials .social .banner {
@@ -112,6 +196,16 @@ header img {
 }
 
 .socials .personal {
-  background-color: #262626;
+  background-color: #da4a5d;
+}
+
+.none {
+  display: none !important;
+}
+
+.flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 /*# sourceMappingURL=styles.css.map */

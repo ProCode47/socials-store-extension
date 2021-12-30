@@ -9,6 +9,11 @@ body{
     background-color: $black;
     font-family: 'Montserrat',sans-serif;
     color: white;
+    // overflow: hidden;
+    // position: fixed;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
 }
 
 header{
@@ -29,10 +34,73 @@ header{
     }
 }
 
+
+.modal{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: none;
+      display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+
+    .main{
+        width: 40%;
+        height: 300px;
+        display: flex;     
+        padding: 30px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: $accent;
+
+        .close{
+            position: absolute;
+            top: 5%;
+            right: 5%;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        input{
+            border: none;
+            appearance: none;
+            outline: none;
+            width: 60%;
+            padding: 10px;
+            height: 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+
+        }
+        button{
+            border: none;
+            appearance: none;
+            outline: none;
+            color: white;
+            background-color: #0077B5;
+            font-size: 1rem;
+            padding: 15px;
+            width: 120px;
+            border-radius: 5px;
+
+        }
+    }
+
+}
+
 .socials{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 1rem;
 
     .social{
         display: flex;
@@ -42,6 +110,7 @@ header{
         height: 300px;
         background-color: blueviolet;
         margin-bottom: 2rem;
+        cursor: pointer;
 
         .banner{
             height: 70%;
@@ -87,6 +156,12 @@ header{
         background-color: #EC7C22;
     }
     .personal{
-        background-color: #262626;
+        background-color: #da4a5d;
     }
+}
+.none{
+    display: none !important;
+}
+.flex{
+    display: flex !important;
 }
