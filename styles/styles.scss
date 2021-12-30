@@ -47,6 +47,7 @@ header {
   height: 100vh;
   background-color: transparent;
   position: absolute;
+  z-index: 1;
 
   .main {
     width: 40%;
@@ -108,6 +109,41 @@ header {
     margin-bottom: 2rem;
     cursor: pointer;
 
+    *[data-tooltip] {
+        position: relative;
+    }
+    
+    *[data-tooltip]::after {
+        content: attr(data-tooltip);
+    
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        width: 150px;
+    
+        pointer-events: none;
+        opacity: 0;
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+    
+        display: block;
+        font-size: 12px;
+        line-height: 16px;
+        background: #fefdcd;
+        color: black;
+        font-size: 1rem;
+        padding: 10px;
+        border-radius: 2px;
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+    }
+    
+    *[data-tooltip]:hover::after {
+        opacity: 1;
+    }
+
     .banner {
       height: 70%;
       display: flex;
@@ -166,4 +202,24 @@ header {
 }
 .flex {
   display: flex !important;
+}
+
+@media only screen and (max-width: 992px){
+
+    .hide-sm{
+        display: none;
+    }
+    .col-sm {
+        flex-direction: column !important;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .modal-sm{
+        width: 75% !important;
+      }
+    
+      .col-item {
+        width: 95% !important;
+      }
 }

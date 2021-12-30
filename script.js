@@ -4,6 +4,7 @@ const social = document.getElementById("social");
 const body = document.querySelector("body");
 const modal = document.getElementById("modal");
 const close = document.getElementById("close");
+const banners = document.getElementsByClassName("banner");
 let targetSocial;
 
 
@@ -29,9 +30,26 @@ const closeModal = () => {
     social.value = "";
 
 }
+const copyToClipboard = (e) => {
+    let target = e.target.title
+    const clipboard = document.getElementById(`${target}`);  
+    const link = clipboard.innerText;
+    async function copyPageUrl() {
+        try {
+          await navigator.clipboard.writeText(link);
+          alert('Page URL copied to clipboard');
+        } catch (err) {
+          console.error('Failed to copy: ', err);
+        }
+    }
+    copyPageUrl()
+}
 
 [...elements].forEach(element => {
     element.addEventListener('click',showModal)
+});
+[...banners].forEach(banner => {
+    banner.addEventListener('click',copyToClipboard)
 });
 
 close.addEventListener('click', () => {
