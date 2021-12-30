@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
   background-color: #25262a;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   margin: 0px;
   padding: 0px;
@@ -31,14 +31,16 @@ header img {
   height: auto;
 }
 
+.fixed {
+  overflow: hidden;
+  position: fixed;
+}
+
 .modal {
   background: rgba(255, 255, 255, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
-  border: none;
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -46,7 +48,7 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: transparent;
   position: absolute;
@@ -103,11 +105,12 @@ header img {
           appearance: none;
   outline: none;
   color: white;
-  background-color: #0077B5;
+  background-color: #0077b5;
   font-size: 1rem;
   padding: 15px;
   width: 120px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .socials {
@@ -158,7 +161,7 @@ header img {
 }
 
 .socials .social .link p {
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.85rem;
 }
 
@@ -168,31 +171,31 @@ header img {
 }
 
 .socials .twitter {
-  background-color: #3CB6FD;
+  background-color: #3cb6fd;
 }
 
 .socials .dribble {
-  background-color: #FF1D84;
+  background-color: #ff1d84;
 }
 
 .socials .linkedin {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 .socials .facebook {
-  background-color: #4867AA;
+  background-color: #4867aa;
 }
 
 .socials .github {
-  background-color: #1B1F23;
+  background-color: #1b1f23;
 }
 
 .socials .behance {
-  background-color: #8A2BE2;
+  background-color: #8a2be2;
 }
 
 .socials .stack-overflow {
-  background-color: #EC7C22;
+  background-color: #ec7c22;
 }
 
 .socials .personal {
