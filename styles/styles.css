@@ -9,6 +9,7 @@ body {
   border-radius: 0px;
 }
 
+<<<<<<< HEAD
 a {
   text-decoration: none;
   color: unset;
@@ -22,13 +23,20 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+=======
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
+<<<<<<< HEAD
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   padding: 20px;
 }
 
@@ -45,7 +53,11 @@ header img {
 }
 
 .fixed {
+<<<<<<< HEAD
   /* overflow: hidden; */
+=======
+  overflow: hidden;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   position: fixed;
 }
 
@@ -56,11 +68,19 @@ header img {
   border-radius: 10px;
   display: none;
   -webkit-box-pack: center;
+<<<<<<< HEAD
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+=======
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   width: 100%;
   height: 100vh;
   background-color: transparent;
@@ -78,6 +98,7 @@ header img {
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+<<<<<<< HEAD
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: space-evenly;
@@ -86,6 +107,16 @@ header img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+=======
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   background-color: #2d2e32;
 }
 
@@ -93,6 +124,7 @@ header img {
   position: absolute;
   top: 5%;
   right: 5%;
+<<<<<<< HEAD
   width: 40px;
   height: 40px;
   background-color: hsl(0, 0%, 100%);
@@ -100,6 +132,8 @@ header img {
   align-items: center;
   justify-content: center;
   color: #25262a;
+=======
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
 }
 
 .modal .main h2 {
@@ -109,8 +143,13 @@ header img {
 .modal .main input {
   border: none;
   -webkit-appearance: none;
+<<<<<<< HEAD
   -moz-appearance: none;
   appearance: none;
+=======
+     -moz-appearance: none;
+          appearance: none;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   outline: none;
   width: 60%;
   padding: 10px;
@@ -122,8 +161,13 @@ header img {
 .modal .main button {
   border: none;
   -webkit-appearance: none;
+<<<<<<< HEAD
   -moz-appearance: none;
   appearance: none;
+=======
+     -moz-appearance: none;
+          appearance: none;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   outline: none;
   color: white;
   background-color: #0077b5;
@@ -139,10 +183,17 @@ header img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+<<<<<<< HEAD
   flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
+=======
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   margin-top: 1rem;
 }
 
@@ -153,8 +204,13 @@ header img {
   border-radius: 5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+<<<<<<< HEAD
   -ms-flex-direction: column;
   flex-direction: column;
+=======
+      -ms-flex-direction: column;
+          flex-direction: column;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   width: 30%;
   height: 300px;
   background-color: blueviolet;
@@ -174,8 +230,13 @@ header img {
   width: 150px;
   pointer-events: none;
   opacity: 0;
+<<<<<<< HEAD
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
+=======
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   display: block;
   font-size: 12px;
   line-height: 16px;
@@ -185,7 +246,11 @@ header img {
   padding: 10px;
   border-radius: 2px;
   -webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+<<<<<<< HEAD
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+=======
+          box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
 }
 
 .socials .social *[data-tooltip]:hover::after {
@@ -198,11 +263,19 @@ header img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+<<<<<<< HEAD
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+=======
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
 }
 
 .socials .social .link {
@@ -211,13 +284,18 @@ header img {
   padding-left: 35px;
 }
 
+<<<<<<< HEAD
 .socials .social .link a {
+=======
+.socials .social .link p {
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   font-family: "Poppins", sans-serif;
   font-size: 0.85rem;
 }
 
 .socials .instagram {
   background: #f09433;
+<<<<<<< HEAD
   background: linear-gradient(
     45deg,
     #f09433 0%,
@@ -226,6 +304,9 @@ header img {
     #cc2366 75%,
     #bc1888 100%
   );
+=======
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
 }
 
 .socials .twitter {
@@ -277,8 +358,13 @@ header img {
   .col-sm {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
+<<<<<<< HEAD
     -ms-flex-direction: column !important;
     flex-direction: column !important;
+=======
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
     padding: 10px;
     width: 100%;
   }
@@ -289,4 +375,8 @@ header img {
     width: 95% !important;
   }
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=styles.css.map */
+=======
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
