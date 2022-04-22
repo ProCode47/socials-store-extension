@@ -13,6 +13,13 @@ body {
   border-radius: 0px;
 }
 
+<<<<<<< HEAD
+body::-webkit-scrollbar {
+  display: none;
+}
+
+=======
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
 header {
   display: flex;
   justify-content: space-between;
@@ -30,8 +37,12 @@ header {
   }
 }
 
+<<<<<<< HEAD
+.fixed {
+=======
 .fixed{
       overflow: hidden;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   position: fixed;
 }
 
@@ -64,6 +75,12 @@ header {
       position: absolute;
       top: 5%;
       right: 5%;
+<<<<<<< HEAD
+      display: flex;
+      align-items: center;
+      justify-content: center;
+=======
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
     }
     h2 {
       font-size: 1.5rem;
@@ -110,6 +127,40 @@ header {
     cursor: pointer;
 
     *[data-tooltip] {
+<<<<<<< HEAD
+      position: relative;
+    }
+
+    *[data-tooltip]::after {
+      content: attr(data-tooltip);
+
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      width: 150px;
+
+      pointer-events: none;
+      opacity: 0;
+      -webkit-transition: opacity 0.15s ease-in-out;
+      -moz-transition: opacity 0.15s ease-in-out;
+      -ms-transition: opacity 0.15s ease-in-out;
+      -o-transition: opacity 0.15s ease-in-out;
+      transition: opacity 0.15s ease-in-out;
+
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+      background: #fefdcd;
+      color: black;
+      font-size: 1rem;
+      padding: 10px;
+      border-radius: 2px;
+      box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    *[data-tooltip]:hover::after {
+      opacity: 1;
+=======
         position: relative;
     }
     
@@ -142,6 +193,7 @@ header {
     
     *[data-tooltip]:hover::after {
         opacity: 1;
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
     }
 
     .banner {
@@ -204,6 +256,26 @@ header {
   display: flex !important;
 }
 
+<<<<<<< HEAD
+@media only screen and (max-width: 992px) {
+  .hide-sm {
+    display: none;
+  }
+  .col-sm {
+    flex-direction: column !important;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .modal-sm {
+    width: 75% !important;
+  }
+
+  .col-item {
+    width: 95% !important;
+  }
+}
+=======
 @media only screen and (max-width: 992px){
 
     .hide-sm{
@@ -223,3 +295,4 @@ header {
         width: 95% !important;
       }
 }
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792

@@ -1,9 +1,28 @@
 {
+<<<<<<< HEAD
+  "manifest_version": 3,
+=======
   "manifest_version": 2,
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
   "name": "Social Store",
   "description": "Get your social profiles from every platform in one place",
   "version": "1.0.0",
   "author": "Chukwuemeka Victor",
+<<<<<<< HEAD
+  "action": {
+    "default_icon": {
+      "16": "social.png",
+      "48": "social.png",
+      "128": "social.png"
+    },
+    "default_title": "Click Me"
+  },
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+=======
   "icons": { "16": "social.png",
     "48": "social.png",
    "128": "social.png" },
@@ -15,3 +34,4 @@
   }
 }
 
+>>>>>>> 8001bb94630c8c1a3b168f8bb568ea86a4aa8792
