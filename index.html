@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Social Store</title>
+    <meta
+      name="description"
+      content="Get your social profiles from every platform in one place"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- modal -->
+    <div class="modal" id="modal">
+      <div class="main modal-sm">
+        <b class="close" id="close"> <i class="fa fa-2x fa-close"></i></b>
+        <h2>Add social profile</h2>
+        <input
+          id="social"
+          type="text"
+          placeholder="Paste profile link or social handle"
+        />
+        <button id="submit"><i class="fa fa-cross"></i>Add</button>
+      </div>
+    </div>
+    <!-- end of modal -->
+
+    <header>
+      <h1>Welcome to Social Store</h1>
+      <div class="circle hide-sm">
+        <img src="avatar.png" alt="avatar image" />
+      </div>
+    </header>
+
+    <!-- socials -->
+
+    <div class="socials col-sm">
+      <div class="social col-item facebook">
+        <div class="banner" title="facebook" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-facebook"></i>
+        </div>
+        <div class="link add" data-link="facebook" id="facebook">
+          <h2 data-link="facebook">Facebook</h2>
+
+          <a href="https://facebook.com/iloenyenwavictor" target="_blank"
+            >https://facebook.com/iloenyenwavictor</a
+          >
+        </div>
+      </div>
+      <div class="social col-item instagram">
+        <div class="banner" title="instagram" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-instagram"></i>
+        </div>
+        <div class="link add" data-link="instagram" id="instagram">
+          <h2 data-link="instagram">Instagram</h2>
+
+          <a href="https://instagram.com/procode47" target="_blank"
+            >https://instagram.com/procode47</a
+          >
+        </div>
+      </div>
+      <div class="social col-item twitter">
+        <div class="banner" title="twitter" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-twitter"></i>
+        </div>
+        <div class="link add" data-link="twitter" id="twitter">
+          <h2 data-link="twitter">Twitter</h2>
+
+          <a href="https://twitter.com" target="_blank">https://twitter.com</a>
+        </div>
+      </div>
+      <div class="social col-item linkedin">
+        <div class="banner" title="linkedin" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-linkedin"></i>
+        </div>
+        <div class="link add" data-link="linkedin" id="linkedin">
+          <h2 data-link="linkedin">Linkedin</h2>
+          <a href="https://linkedin.com/iloenyenwavictor" target="_blank"
+            >https://linkedin.com/iloenyenwavictor</a
+          >
+        </div>
+      </div>
+      <div class="social col-item dribble">
+        <div class="banner" title="instagram" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-dribbble"></i>
+        </div>
+        <div class="link add" data-link="dribble" id="dribble">
+          <h2 data-link="dribble">Dribble</h2>
+          <a href="https://dribble.com/procode47" target="_blank"
+            >https://dribble.com/procode47</a
+          >
+        </div>
+      </div>
+      <div class="social col-item github">
+        <div class="banner" title="github" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-github"></i>
+        </div>
+        <div class="link add" data-link="github" id="github">
+          <h2 data-link="github">Github</h2>
+          <a href="https://github.com/procode47" target="_blank"
+            >https://github.com/procode47</a
+          >
+        </div>
+      </div>
+      <div class="social col-item behance">
+        <div class="banner" title="instagram" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-behance"></i>
+        </div>
+        <div class="link add" data-link="behance" id="behance">
+          <h2 data-link="behance">Behance</h2>
+          <a href="https://behance.com/procode47" target="_blank"
+            >https://behance.com/procode47</a
+          >
+        </div>
+      </div>
+      <div class="social col-item personal">
+        <div class="banner" title="personal" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-user-o"></i>
+        </div>
+        <div class="link add" data-link="personal" id="personal">
+          <h2 data-link="personal">Personal Site</h2>
+          <a href="https://shadowbytee.netlify.app" target="_blank"
+            >https://shadowbytee.netlify.app</a
+          >
+        </div>
+      </div>
+      <div class="social col-item stack-overflow">
+        <div class="banner" title="stack" data-tooltip="Copy to Clipboard">
+          <i class="fa fa-5x fa-stack-overflow"></i>
+        </div>
+        <div class="link add" data-link="stack" id="stack">
+          <h2 data-link="stack">Stack Overflow</h2>
+          <a href="https://stackoverflow.com/procode47" target="_blank"
+            >https://stackoverflow.com/procode47</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
