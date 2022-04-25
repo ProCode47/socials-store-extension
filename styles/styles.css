@@ -9,10 +9,6 @@ body {
   border-radius: 0px;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,6 +202,13 @@ header img {
 .socials .social .link p {
   font-family: "Poppins", sans-serif;
   font-size: 0.85rem;
+}
+
+.socials .social .link a {
+  color: inherit;
+  -webkit-text-decoration-color: inherit;
+          text-decoration-color: inherit;
+  text-decoration: none;
 }
 
 .socials .instagram {
